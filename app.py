@@ -1,3 +1,4 @@
+from flask_cors import CORS
 from flask import Flask, request, jsonify
 from sxtwl import fromSolar
 from datetime import datetime
