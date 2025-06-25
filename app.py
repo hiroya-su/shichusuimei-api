@@ -4,6 +4,7 @@ from sxtwl import fromSolar
 from datetime import datetime
 
 app = Flask(__name__)
+CORS(app)
 
 GAN = ["甲","乙","丙","丁","戊","己","庚","辛","壬","癸"]
 ZHI = ["子","丑","寅","卯","辰","巳","午","未","申","酉","戌","亥"]
